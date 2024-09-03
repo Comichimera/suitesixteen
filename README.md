@@ -26,7 +26,7 @@ SuiteSixteen Data Logger is a command-line application for recording and uploadi
 2. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/yourusername/suitesixteen.git
+    git clone https://github.com/comichimera/suitesixteen.git
     cd suitesixteen
     ```
 
@@ -55,7 +55,7 @@ SuiteSixteen Data Logger is a command-line application for recording and uploadi
 2. **Clone the Repository**: Open a command prompt and run:
 
     ```cmd
-    git clone https://github.com/yourusername/suitesixteen.git
+    git clone https://github.com/comichimera/suitesixteen.git
     cd suitesixteen
     ```
 
