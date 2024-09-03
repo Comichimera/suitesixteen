@@ -114,4 +114,7 @@ Once the application is running, follow the on-screen prompts to enter and manag
    - Type `track` to change the track and follow the prompts.
 
 8. **Push Data to GitHub**: When you are done inputting data, type `push` to save all committed records to the CSV file and upload it to GitHub. You will be prompted to enter a commit message before the upload.
+   
 9. **Uncommitted data**: Any data that has not been committed will not be saved if another command is used, such as `push`, `rollback`, `track` or `mode`.
+
+10. **Mistakes**: If you make a mistake in a record, simply `commit` the data and then type `rollback` to undo.
