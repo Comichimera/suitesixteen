@@ -92,6 +92,8 @@ func main() {
 					path := "data/uploads/" + filename
 					token := os.Getenv("GITHUB_TOKEN")
 
+					fmt.Println("Token: ", token)
+
 					err := github.UploadFileToGitHub(owner, repo, path, token, commitMessage, filename)
 					if err != nil {
 						fmt.Printf("Error uploading file: %v\n", err)
